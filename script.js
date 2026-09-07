@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>{document.querySelectorAll("a[href]").forEach(a=>{a.addEventListener("click",()=>{document.body.style.opacity=".98"})})});function demo(e,msg){e.preventDefault();alert(msg+" — demo only. Connect your real backend/authentication before launch.");}
